@@ -1,14 +1,17 @@
 import React from 'react';
 import OpeningWord from './OpeningWord';
+import Terminal from './Terminal';
 
-const Card = ({item}) => {
-    return (
-        <div className="bg-white dark:bg-black rounded-lg shadow-md p-3 border dark:border-slate-800">
-            <div className=''>
-                <OpeningWord/>
-            </div>
-        </div>
-    );
+const Card = () => {
+  return (
+    <div className="">
+      <div className="mb-4">
+        {/* <OpeningWord /> */}
+      </div>
+      <Terminal />
+    </div>
+  );
 };
 
 export default Card;
+
